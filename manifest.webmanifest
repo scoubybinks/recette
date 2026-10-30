@@ -1,0 +1,16 @@
+{
+  "name": "Mes Recettes",
+  "short_name": "Recettes",
+  "description": "Carnet de recettes : ingrédients, recherche par ingrédients, catégories et minuteurs intégrés.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF6EF",
+  "theme_color": "#D9592B",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

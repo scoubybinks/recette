@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Mes Recettes</title>
+    <meta name="description" content="Carnet de recettes : ingrédients, recherche par ingrédients, catégories et minuteurs intégrés." />
+    <meta name="theme-color" content="#FBF6EF" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1B1612" media="(prefers-color-scheme: dark)" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Recettes" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./js/app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a href="#/" class="brand"><span aria-hidden="true">🍳</span> Mes Recettes</a>
+      <a href="#/reglages" id="sync-badge" class="sync-badge" aria-live="polite"></a>
+    </header>
+
+    <main id="view" class="container"></main>
+
+    <div id="timer-dock" class="timer-dock" hidden></div>
+
+    <nav class="tabbar" aria-label="Navigation">
+      <a href="#/" data-tab=""><span>📖</span>Recettes</a>
+      <a href="#/nouvelle" data-tab="nouvelle"><span>➕</span>Ajouter</a>
+      <a href="#/ingredients" data-tab="ingredients"><span>🥕</span>Ingrédients</a>
+      <a href="#/categories" data-tab="categories"><span>🏷️</span>Catégories</a>
+      <a href="#/reglages" data-tab="reglages"><span>⚙️</span>Sync</a>
+    </nav>
+
+    <dialog id="dialog"></dialog>
+    <div id="toast" class="toast" role="status"></div>
+    <noscript>Cette application a besoin de JavaScript.</noscript>
+  </body>
+</html>

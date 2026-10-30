@@ -1,0 +1,590 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-30T12:00:00.000Z",
+  "categories": [
+    {
+      "id": "c_entree",
+      "name": "Entrées",
+      "emoji": "🥗",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "c_plat",
+      "name": "Plats",
+      "emoji": "🍲",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "c_dessert",
+      "name": "Desserts",
+      "emoji": "🍰",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "c_petit-dej",
+      "name": "Petit-déj & goûter",
+      "emoji": "🥞",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "c_vege",
+      "name": "Végétarien",
+      "emoji": "🥕",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "c_rapide",
+      "name": "Rapide",
+      "emoji": "⚡",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "c_soupe",
+      "name": "Soupes",
+      "emoji": "🥣",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "i_farine",
+      "name": "farine",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_oeufs",
+      "name": "œufs",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_lait",
+      "name": "lait",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_beurre",
+      "name": "beurre",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_sel",
+      "name": "sel",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_sucre",
+      "name": "sucre",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_spaghetti",
+      "name": "spaghetti",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_guanciale",
+      "name": "guanciale",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_jaunes-d-oeufs",
+      "name": "jaunes d'œufs",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_pecorino",
+      "name": "pecorino",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_poivre-noir",
+      "name": "poivre noir",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_aubergines",
+      "name": "aubergines",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_courgettes",
+      "name": "courgettes",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_poivrons",
+      "name": "poivrons",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_tomates",
+      "name": "tomates",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_oignons",
+      "name": "oignons",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_ail",
+      "name": "ail",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_huile-d-olive",
+      "name": "huile d'olive",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_thym",
+      "name": "thym",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_chocolat-noir",
+      "name": "chocolat noir",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_potiron",
+      "name": "potiron",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_pommes-de-terre",
+      "name": "pommes de terre",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_bouillon-de-legumes",
+      "name": "bouillon de légumes",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_creme-fraiche",
+      "name": "crème fraîche",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_noix-de-muscade",
+      "name": "noix de muscade",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "r_crepes",
+      "title": "Crêpes",
+      "description": "La pâte à crêpes classique, pour 15 crêpes environ.",
+      "categoryIds": [
+        "c_petit-dej",
+        "c_dessert",
+        "c_vege"
+      ],
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "ingredients": [
+        {
+          "ingredientId": "i_farine",
+          "name": "farine",
+          "qty": "250",
+          "unit": "g",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_oeufs",
+          "name": "œufs",
+          "qty": "4",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_lait",
+          "name": "lait",
+          "qty": "50",
+          "unit": "cl",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_beurre",
+          "name": "beurre",
+          "qty": "50",
+          "unit": "g",
+          "note": "fondu"
+        },
+        {
+          "ingredientId": "i_sel",
+          "name": "sel",
+          "qty": "1",
+          "unit": "pincée",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_sucre",
+          "name": "sucre",
+          "qty": "2",
+          "unit": "c. à s.",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mettre la farine et le sel dans un saladier, creuser un puits et y casser les œufs.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Verser le lait petit à petit en fouettant pour éviter les grumeaux, puis ajouter le beurre fondu et le sucre.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Laisser reposer la pâte 1 h à température ambiante.",
+          "timerSeconds": 3600
+        },
+        {
+          "text": "Cuire les crêpes dans une poêle chaude légèrement beurrée, environ 1 min de chaque côté.",
+          "timerSeconds": null
+        }
+      ],
+      "notes": "Une cuillère de rhum ou de fleur d'oranger dans la pâte, c'est encore meilleur.",
+      "image": "",
+      "source": "",
+      "favorite": false,
+      "createdAt": "2026-10-30T12:00:00.000Z",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "r_carbonara",
+      "title": "Pâtes à la carbonara",
+      "description": "La vraie, sans crème.",
+      "categoryIds": [
+        "c_plat",
+        "c_rapide"
+      ],
+      "servings": 4,
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "ingredients": [
+        {
+          "ingredientId": "i_spaghetti",
+          "name": "spaghetti",
+          "qty": "400",
+          "unit": "g",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_guanciale",
+          "name": "guanciale",
+          "qty": "150",
+          "unit": "g",
+          "note": "ou lardons"
+        },
+        {
+          "ingredientId": "i_jaunes-d-oeufs",
+          "name": "jaunes d'œufs",
+          "qty": "4",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_pecorino",
+          "name": "pecorino",
+          "qty": "80",
+          "unit": "g",
+          "note": "râpé"
+        },
+        {
+          "ingredientId": "i_poivre-noir",
+          "name": "poivre noir",
+          "qty": "",
+          "unit": "",
+          "note": "du moulin"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Porter une grande casserole d'eau salée à ébullition et cuire les spaghetti 10 min.",
+          "timerSeconds": 600
+        },
+        {
+          "text": "Pendant ce temps, faire dorer le guanciale coupé en lardons dans une poêle sans matière grasse.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Mélanger les jaunes d'œufs, le pecorino et beaucoup de poivre.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Égoutter les pâtes en gardant une louche d'eau de cuisson. Hors du feu, mélanger pâtes, guanciale et crème d'œufs en ajoutant un peu d'eau de cuisson pour napper.",
+          "timerSeconds": null
+        }
+      ],
+      "image": "",
+      "source": "",
+      "notes": "",
+      "favorite": false,
+      "createdAt": "2026-10-30T12:00:00.000Z",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "r_ratatouille",
+      "title": "Ratatouille",
+      "description": "Le plat d'été du Sud, encore meilleur réchauffé.",
+      "categoryIds": [
+        "c_plat",
+        "c_vege"
+      ],
+      "servings": 6,
+      "prepMinutes": 30,
+      "cookMinutes": 60,
+      "ingredients": [
+        {
+          "ingredientId": "i_aubergines",
+          "name": "aubergines",
+          "qty": "2",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_courgettes",
+          "name": "courgettes",
+          "qty": "3",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_poivrons",
+          "name": "poivrons",
+          "qty": "2",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_tomates",
+          "name": "tomates",
+          "qty": "6",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_oignons",
+          "name": "oignons",
+          "qty": "2",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_ail",
+          "name": "ail",
+          "qty": "3",
+          "unit": "gousses",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_huile-d-olive",
+          "name": "huile d'olive",
+          "qty": "4",
+          "unit": "c. à s.",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_thym",
+          "name": "thym",
+          "qty": "1",
+          "unit": "brin",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_sel",
+          "name": "sel",
+          "qty": "",
+          "unit": "",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "Couper tous les légumes en dés d'environ 2 cm. Émincer les oignons et l'ail.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Faire revenir les oignons dans l'huile d'olive 5 min, puis ajouter les poivrons et cuire encore 5 min.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Ajouter aubergines et courgettes, faire revenir 10 min en remuant.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Ajouter les tomates, l'ail et le thym, saler, couvrir et laisser mijoter 40 min à feu doux.",
+          "timerSeconds": 2400
+        }
+      ],
+      "image": "",
+      "source": "",
+      "notes": "",
+      "favorite": false,
+      "createdAt": "2026-10-30T12:00:00.000Z",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "r_mousse",
+      "title": "Mousse au chocolat",
+      "description": "Aérienne, avec seulement 3 ingrédients.",
+      "categoryIds": [
+        "c_dessert",
+        "c_vege"
+      ],
+      "servings": 6,
+      "prepMinutes": 20,
+      "cookMinutes": null,
+      "ingredients": [
+        {
+          "ingredientId": "i_chocolat-noir",
+          "name": "chocolat noir",
+          "qty": "200",
+          "unit": "g",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_oeufs",
+          "name": "œufs",
+          "qty": "6",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_sel",
+          "name": "sel",
+          "qty": "1",
+          "unit": "pincée",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "Faire fondre le chocolat au bain-marie, puis le laisser tiédir.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Séparer les blancs des jaunes. Incorporer les jaunes au chocolat.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Monter les blancs en neige ferme avec la pincée de sel.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Incorporer délicatement les blancs au chocolat en trois fois, sans les casser.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Réserver au réfrigérateur au moins 3 h avant de servir.",
+          "timerSeconds": 10800
+        }
+      ],
+      "image": "",
+      "source": "",
+      "notes": "",
+      "favorite": false,
+      "createdAt": "2026-10-30T12:00:00.000Z",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "r_veloute-potiron",
+      "title": "Velouté de potiron",
+      "description": "Une soupe douce et réconfortante pour l'automne.",
+      "categoryIds": [
+        "c_soupe",
+        "c_entree",
+        "c_vege"
+      ],
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "ingredients": [
+        {
+          "ingredientId": "i_potiron",
+          "name": "potiron",
+          "qty": "1",
+          "unit": "kg",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_pommes-de-terre",
+          "name": "pommes de terre",
+          "qty": "2",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_oignons",
+          "name": "oignons",
+          "qty": "1",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_bouillon-de-legumes",
+          "name": "bouillon de légumes",
+          "qty": "1",
+          "unit": "l",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_creme-fraiche",
+          "name": "crème fraîche",
+          "qty": "10",
+          "unit": "cl",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_noix-de-muscade",
+          "name": "noix de muscade",
+          "qty": "",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_sel",
+          "name": "sel",
+          "qty": "",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_poivre-noir",
+          "name": "poivre noir",
+          "qty": "",
+          "unit": "",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "Éplucher et couper le potiron, les pommes de terre et l'oignon en morceaux.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Faire revenir l'oignon 3 min dans une cocotte avec un filet d'huile.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Ajouter le potiron, les pommes de terre et le bouillon. Cuire 25 min à frémissement.",
+          "timerSeconds": 1500
+        },
+        {
+          "text": "Mixer, ajouter la crème, la muscade, saler et poivrer.",
+          "timerSeconds": null
+        }
+      ],
+      "image": "",
+      "source": "",
+      "notes": "",
+      "favorite": false,
+      "createdAt": "2026-10-30T12:00:00.000Z",
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    }
+  ]
+}
