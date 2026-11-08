@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T18:28:49.909Z",
+  "updatedAt": "2026-11-08T18:29:29.573Z",
   "categories": [
     {
       "id": "c_entree",
@@ -277,11 +277,11 @@
         },
         {
           "text": "Cuire au four 45-50min",
-          "timerSeconds": 2700
+          "timerSeconds": null
         }
       ],
       "createdAt": "2026-11-08T18:28:49.908Z",
-      "updatedAt": "2026-11-08T18:28:49.908Z"
+      "updatedAt": "2026-11-08T18:29:29.572Z"
     },
     {
       "id": "r_mw855t4gwemoq",
