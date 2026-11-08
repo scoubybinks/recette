@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T18:29:29.573Z",
+  "updatedAt": "2026-11-08T18:30:23.097Z",
   "categories": [
     {
       "id": "c_entree",
@@ -341,12 +341,16 @@
           "timerSeconds": null
         },
         {
+          "text": "Pétrir pendant 5-10 minutes. Jusqu'à obtenir une boule lisse.",
+          "timerSeconds": null
+        },
+        {
           "text": "Aplatir les wraps avec un rouleau, puis les cuire à la poêle avec de l'huile d'olive.",
           "timerSeconds": null
         }
       ],
       "createdAt": "2026-11-08T18:04:03.375Z",
-      "updatedAt": "2026-11-08T18:04:03.375Z"
+      "updatedAt": "2026-11-08T18:30:23.097Z"
     },
     {
       "id": "r_crepes",
