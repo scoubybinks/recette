@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T18:04:03.376Z",
+  "updatedAt": "2026-11-08T18:28:49.909Z",
   "categories": [
     {
       "id": "c_entree",
@@ -187,9 +187,102 @@
       "id": "i_mw855t4gqbpax",
       "name": "eau",
       "updatedAt": "2026-11-08T18:04:03.375Z"
+    },
+    {
+      "id": "i_mw861o50wzuci",
+      "name": "pâte brisée",
+      "updatedAt": "2026-11-08T18:28:49.908Z"
+    },
+    {
+      "id": "i_mw861o51robiq",
+      "name": "lardons",
+      "updatedAt": "2026-11-08T18:28:49.908Z"
     }
   ],
   "recipes": [
+    {
+      "id": "r_mw861o51rqzm8",
+      "title": "Quiche lorraine",
+      "description": "",
+      "categoryIds": [
+        "c_plat"
+      ],
+      "servings": 4,
+      "prepMinutes": null,
+      "cookMinutes": 50,
+      "image": "",
+      "source": "",
+      "notes": "4 oeufs pour une quiche plus ferme",
+      "favorite": false,
+      "ingredients": [
+        {
+          "ingredientId": "i_oeufs",
+          "name": "œufs",
+          "qty": "3",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_creme-fraiche",
+          "name": "crème fraîche",
+          "qty": "20",
+          "unit": "cl",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_lait",
+          "name": "lait",
+          "qty": "20",
+          "unit": "cl",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_mw861o50wzuci",
+          "name": "pâte brisée",
+          "qty": "1",
+          "unit": "",
+          "note": "(ou feuilletée)"
+        },
+        {
+          "ingredientId": "i_noix-de-muscade",
+          "name": "noix de muscade",
+          "qty": "",
+          "unit": "",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_mw861o51robiq",
+          "name": "lardons",
+          "qty": "200",
+          "unit": "g",
+          "note": "(ou équivalent)"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Préchauffer le four à 180°",
+          "timerSeconds": null
+        },
+        {
+          "text": "Battre les oeufs, la crème fraîche et le lait",
+          "timerSeconds": null
+        },
+        {
+          "text": "Ajouter lardons, oignons etc... (Éponger si gras)",
+          "timerSeconds": null
+        },
+        {
+          "text": "Assaisonner sel, poivre et muscade",
+          "timerSeconds": null
+        },
+        {
+          "text": "Cuire au four 45-50min",
+          "timerSeconds": 2700
+        }
+      ],
+      "createdAt": "2026-11-08T18:28:49.908Z",
+      "updatedAt": "2026-11-08T18:28:49.908Z"
+    },
     {
       "id": "r_mw855t4gwemoq",
       "title": "Tortillas",
