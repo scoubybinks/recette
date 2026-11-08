@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T12:00:00.000Z",
+  "updatedAt": "2026-11-08T18:04:03.376Z",
   "categories": [
     {
       "id": "c_entree",
@@ -43,6 +43,18 @@
       "name": "Soupes",
       "emoji": "🥣",
       "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "c_mw5l8aqgww6bl",
+      "name": "Snacks",
+      "emoji": "🍪",
+      "updatedAt": "2026-11-06T23:10:34.840Z"
+    },
+    {
+      "id": "c_mw84y52w4q3bd",
+      "name": "Pain/pâte",
+      "emoji": "🍞",
+      "updatedAt": "2026-11-08T17:58:05.624Z"
     }
   ],
   "ingredients": [
@@ -170,9 +182,79 @@
       "id": "i_noix-de-muscade",
       "name": "noix de muscade",
       "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "i_mw855t4gqbpax",
+      "name": "eau",
+      "updatedAt": "2026-11-08T18:04:03.375Z"
     }
   ],
   "recipes": [
+    {
+      "id": "r_mw855t4gwemoq",
+      "title": "Tortillas",
+      "description": "Tortillas wrap",
+      "categoryIds": [
+        "c_mw84y52w4q3bd"
+      ],
+      "servings": 8,
+      "prepMinutes": null,
+      "cookMinutes": null,
+      "image": "",
+      "source": "",
+      "notes": "Il vaut aplatir jusqu'à avoir un demi-centimètre d'épaisseur environ, puis étirer un peu la galette.",
+      "favorite": false,
+      "ingredients": [
+        {
+          "ingredientId": "i_sel",
+          "name": "sel",
+          "qty": "1",
+          "unit": "c. à c.",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_farine",
+          "name": "farine",
+          "qty": "400",
+          "unit": "g",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_huile-d-olive",
+          "name": "huile d'olive",
+          "qty": "10",
+          "unit": "cl",
+          "note": ""
+        },
+        {
+          "ingredientId": "i_mw855t4gqbpax",
+          "name": "eau",
+          "qty": "15",
+          "unit": "cl",
+          "note": ""
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mélanger sel et farine",
+          "timerSeconds": null
+        },
+        {
+          "text": "Ajouter l'huile d'olive et mélanger",
+          "timerSeconds": null
+        },
+        {
+          "text": "Progressivement ajouter de l'eau. (Si c'est trop farineux encore, rajouter un peu d'eau) Ça ne doit pas être collant.",
+          "timerSeconds": null
+        },
+        {
+          "text": "Aplatir les wraps avec un rouleau, puis les cuire à la poêle avec de l'huile d'olive.",
+          "timerSeconds": null
+        }
+      ],
+      "createdAt": "2026-11-08T18:04:03.375Z",
+      "updatedAt": "2026-11-08T18:04:03.375Z"
+    },
     {
       "id": "r_crepes",
       "title": "Crêpes",
@@ -185,6 +267,10 @@
       "servings": 4,
       "prepMinutes": 10,
       "cookMinutes": 20,
+      "image": "",
+      "source": "",
+      "notes": "Une cuillère de rhum ou de fleur d'oranger dans la pâte, c'est encore meilleur.",
+      "favorite": false,
       "ingredients": [
         {
           "ingredientId": "i_farine",
@@ -247,10 +333,6 @@
           "timerSeconds": null
         }
       ],
-      "notes": "Une cuillère de rhum ou de fleur d'oranger dans la pâte, c'est encore meilleur.",
-      "image": "",
-      "source": "",
-      "favorite": false,
       "createdAt": "2026-10-30T12:00:00.000Z",
       "updatedAt": "2026-10-30T12:00:00.000Z"
     },
@@ -265,6 +347,10 @@
       "servings": 4,
       "prepMinutes": 10,
       "cookMinutes": 12,
+      "image": "",
+      "source": "",
+      "notes": "",
+      "favorite": false,
       "ingredients": [
         {
           "ingredientId": "i_spaghetti",
@@ -320,10 +406,6 @@
           "timerSeconds": null
         }
       ],
-      "image": "",
-      "source": "",
-      "notes": "",
-      "favorite": false,
       "createdAt": "2026-10-30T12:00:00.000Z",
       "updatedAt": "2026-10-30T12:00:00.000Z"
     },
@@ -338,6 +420,10 @@
       "servings": 6,
       "prepMinutes": 30,
       "cookMinutes": 60,
+      "image": "",
+      "source": "",
+      "notes": "",
+      "favorite": false,
       "ingredients": [
         {
           "ingredientId": "i_aubergines",
@@ -421,10 +507,6 @@
           "timerSeconds": 2400
         }
       ],
-      "image": "",
-      "source": "",
-      "notes": "",
-      "favorite": false,
       "createdAt": "2026-10-30T12:00:00.000Z",
       "updatedAt": "2026-10-30T12:00:00.000Z"
     },
@@ -439,6 +521,10 @@
       "servings": 6,
       "prepMinutes": 20,
       "cookMinutes": null,
+      "image": "",
+      "source": "",
+      "notes": "",
+      "favorite": false,
       "ingredients": [
         {
           "ingredientId": "i_chocolat-noir",
@@ -484,10 +570,6 @@
           "timerSeconds": 10800
         }
       ],
-      "image": "",
-      "source": "",
-      "notes": "",
-      "favorite": false,
       "createdAt": "2026-10-30T12:00:00.000Z",
       "updatedAt": "2026-10-30T12:00:00.000Z"
     },
@@ -503,6 +585,10 @@
       "servings": 4,
       "prepMinutes": 15,
       "cookMinutes": 25,
+      "image": "",
+      "source": "",
+      "notes": "",
+      "favorite": false,
       "ingredients": [
         {
           "ingredientId": "i_potiron",
@@ -579,10 +665,6 @@
           "timerSeconds": null
         }
       ],
-      "image": "",
-      "source": "",
-      "notes": "",
-      "favorite": false,
       "createdAt": "2026-10-30T12:00:00.000Z",
       "updatedAt": "2026-10-30T12:00:00.000Z"
     }
